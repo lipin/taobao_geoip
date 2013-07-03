@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = TaobaoGeoip::VERSION
   spec.authors       = ["NaixSpirit"]
   spec.email         = ["neverlandxy.naix@gmail.com"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
+  spec.description   = %q{淘宝IP地址库}
+  spec.summary       = %q{调用频率需小于10qps}
   spec.homepage      = ""
   spec.license       = "MIT"
 

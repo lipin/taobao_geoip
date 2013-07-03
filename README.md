@@ -1,6 +1,10 @@
 # TaobaoGeoip
 
-TODO: Write a gem description
+淘宝IP地址库
+
+可根据ip查询国家 、省（自治区或直辖市）、市（县）、运营商等
+
+调用频率需小于10qps
 
 ## Installation
 
@@ -18,7 +22,14 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```ruby
+a_data = TaobaoGeoip.new("127.0.0.1")
+a_data.city
+a_data.country
+a_data.isp
+a_data.area
+a_data.county
+```
 
 ## Contributing
 

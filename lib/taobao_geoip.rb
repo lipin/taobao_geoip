@@ -2,7 +2,7 @@ require "taobao_geoip/version"
 require "open-uri"
 require 'json'
 
-class TaobaoGeoip
+class TaobaoGeoIP
   BaseURL = 'http://ip.taobao.com/service/getIpInfo.php?ip='
   attr_reader :ip
 

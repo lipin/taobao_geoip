@@ -28,7 +28,6 @@ a_data.city
 a_data.country
 a_data.isp
 a_data.area
-a_data.county
 ```
 
 ## Contributing
